@@ -1,7 +1,9 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { PaperClipIcon } from '@heroicons/react/20/solid'
 import ExampleDoc from '../assets/Curriculum.pdf'
-import ProfilePicture from '../assets/Pp.jfif'
+// import ProfilePicture from '../assets/Pp.jfif'
+import ProfilePicture from '../assets/Pp.jpg'
+
 export default function Home () {
   return (
     <div>
