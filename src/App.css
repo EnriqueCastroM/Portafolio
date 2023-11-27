@@ -1,0 +1,61 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(255, 174, 0);
+  }
+  
+  span{
+    color: whitesmoke;
+  }
+  
+  #curriculum:hover {
+    background-color: rgb(255, 174, 0);
+  }
+  
+  .profile-picture{
+  width: 200px;
+  border-radius: 100rem;
+  transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-picture.opacity-0 {
+    opacity: 0;
+  }
+  
+  .profile-picture.opacity-100 {
+    opacity: 1;
+  }
+  .profile-picture:hover {
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.5)); /* Cambia los valores según tu preferencia */
+    transform: scale(1.1); /* Ajusta el valor según tu preferencia */
+  }
+  
+  .text-md.opacity-0 {
+    opacity: 0;
+  }
+  
+  .text-md.opacity-100 {
+    opacity: 1;
+  }
+  
+ 

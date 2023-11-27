@@ -10,7 +10,7 @@ function App () {
       <Navbar />
       <Home />
       <Portafolio />
-      <Contacto />
+      <Contacto /> 
     </div>
   )
 }
